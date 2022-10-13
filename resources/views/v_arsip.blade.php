@@ -54,10 +54,6 @@
         </tbody>
     </table>
     </div>
-
-    <script type="text/javascript">
-  window.print();
-</script>
     
 @foreach ($arsip as $data)
     <div class="modal modal-danger fade" id="delete{{ $data->ID_arsip }}">
